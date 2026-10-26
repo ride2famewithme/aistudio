@@ -1,0 +1,2 @@
+Configured database: /var/lib/payment-gateway-kit/orders.sqlite3
+Database absent; no payment files found during backup.

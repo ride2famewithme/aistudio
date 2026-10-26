@@ -1,0 +1,16 @@
+{
+  "runner_sha256": "eb3e8d1038392f7353b509a9d91bbefb1a1e32ba9318c75d55998fcbc32ebaf8",
+  "fixture_checks_passed": [
+    "Read-only preflight accepts exact source and synthetic 102-test evidence without writes",
+    "Markdown URL rejected without normalization",
+    "Unreviewed/private compile key rejected without showing value",
+    "Graph version change rejected",
+    "Changed backend prevents QA evidence reuse",
+    "Skipped backend test prevents evidence reuse",
+    "Controlled Flutter-stage failure retains log and emits no ZIP or success result; protected release unchanged"
+  ],
+  "actual_flutter_executed": false,
+  "actual_backend_retested": false,
+  "production_deployed": false,
+  "browser_facebook_verified": false
+}

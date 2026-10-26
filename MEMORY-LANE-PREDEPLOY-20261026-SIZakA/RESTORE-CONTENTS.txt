@@ -1,0 +1,168 @@
+;
+; Archive created at 2026-10-25 14:07:14 UTC
+;     dbname: ncd
+;     TOC Entries: 157
+;     Compression: gzip
+;     Dump Version: 1.15-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 16.15
+;     Dumped by pg_dump version: 16.15
+;
+;
+; Selected TOC Entries:
+;
+245; 1255 16418 FUNCTION public reject_admin_change_audit_mutation() ncd
+215; 1259 16389 TABLE public admin_account ncd
+217; 1259 16404 TABLE public admin_change_audit ncd
+216; 1259 16403 SEQUENCE public admin_change_audit_sequence_seq ncd
+226; 1259 16542 TABLE public managed_access_entitlements ncd
+225; 1259 16541 SEQUENCE public managed_access_entitlements_entitlement_id_seq ncd
+3908; 0 0 SEQUENCE OWNED BY public managed_access_entitlements_entitlement_id_seq ncd
+219; 1259 16435 TABLE public managed_anniversaries ncd
+229; 1259 16605 TABLE public managed_app_user_external_identities ncd
+228; 1259 16584 TABLE public managed_app_user_password_credentials ncd
+218; 1259 16421 TABLE public managed_app_users ncd
+227; 1259 16567 TABLE public managed_free_resource_claims ncd
+222; 1259 16493 TABLE public managed_media_uploads ncd
+242; 1259 18346 TABLE public managed_memorial_design ncd
+237; 1259 18241 TABLE public managed_memorial_identities ncd
+243; 1259 18368 TABLE public managed_memorial_shares ncd
+231; 1259 16641 TABLE public managed_memories ncd
+223; 1259 16516 TABLE public managed_memory_ownership ncd
+232; 1259 16669 TABLE public managed_memory_reminder_preferences ncd
+244; 1259 18388 TABLE public managed_paid_profile_credits ncd
+240; 1259 18295 TABLE public managed_privacy_inquiries ncd
+220; 1259 16458 TABLE public managed_relationship_categories ncd
+234; 1259 16694 TABLE public managed_reminder_dispatch_outbox ncd
+233; 1259 16693 SEQUENCE public managed_reminder_dispatch_outbox_dispatch_id_seq ncd
+3909; 0 0 SEQUENCE OWNED BY public managed_reminder_dispatch_outbox_dispatch_id_seq ncd
+235; 1259 16728 TABLE public managed_reminder_push_targets ncd
+221; 1259 16474 TABLE public managed_tribute_moderation ncd
+241; 1259 18309 TABLE public managed_tribute_offerings ncd
+230; 1259 16626 TABLE public meta_limited_login_challenges ncd
+224; 1259 16532 TABLE public meta_webhook_receipts ncd
+238; 1259 18259 TABLE public public_site_settings ncd
+236; 1259 16746 TABLE public reminder_worker_heartbeat ncd
+239; 1259 18284 TABLE public schema_migrations ncd
+3434; 2604 16545 DEFAULT public managed_access_entitlements entitlement_id ncd
+3457; 2604 16697 DEFAULT public managed_reminder_dispatch_outbox dispatch_id ncd
+3872; 0 16389 TABLE DATA public admin_account ncd
+3874; 0 16404 TABLE DATA public admin_change_audit ncd
+3883; 0 16542 TABLE DATA public managed_access_entitlements ncd
+3876; 0 16435 TABLE DATA public managed_anniversaries ncd
+3886; 0 16605 TABLE DATA public managed_app_user_external_identities ncd
+3885; 0 16584 TABLE DATA public managed_app_user_password_credentials ncd
+3875; 0 16421 TABLE DATA public managed_app_users ncd
+3884; 0 16567 TABLE DATA public managed_free_resource_claims ncd
+3879; 0 16493 TABLE DATA public managed_media_uploads ncd
+3899; 0 18346 TABLE DATA public managed_memorial_design ncd
+3894; 0 18241 TABLE DATA public managed_memorial_identities ncd
+3900; 0 18368 TABLE DATA public managed_memorial_shares ncd
+3888; 0 16641 TABLE DATA public managed_memories ncd
+3880; 0 16516 TABLE DATA public managed_memory_ownership ncd
+3889; 0 16669 TABLE DATA public managed_memory_reminder_preferences ncd
+3901; 0 18388 TABLE DATA public managed_paid_profile_credits ncd
+3897; 0 18295 TABLE DATA public managed_privacy_inquiries ncd
+3877; 0 16458 TABLE DATA public managed_relationship_categories ncd
+3891; 0 16694 TABLE DATA public managed_reminder_dispatch_outbox ncd
+3892; 0 16728 TABLE DATA public managed_reminder_push_targets ncd
+3878; 0 16474 TABLE DATA public managed_tribute_moderation ncd
+3898; 0 18309 TABLE DATA public managed_tribute_offerings ncd
+3887; 0 16626 TABLE DATA public meta_limited_login_challenges ncd
+3881; 0 16532 TABLE DATA public meta_webhook_receipts ncd
+3895; 0 18259 TABLE DATA public public_site_settings ncd
+3893; 0 16746 TABLE DATA public reminder_worker_heartbeat ncd
+3896; 0 18284 TABLE DATA public schema_migrations ncd
+3910; 0 0 SEQUENCE SET public admin_change_audit_sequence_seq ncd
+3911; 0 0 SEQUENCE SET public managed_access_entitlements_entitlement_id_seq ncd
+3912; 0 0 SEQUENCE SET public managed_reminder_dispatch_outbox_dispatch_id_seq ncd
+3605; 2606 16400 CONSTRAINT public admin_account admin_account_pkey ncd
+3607; 2606 16402 CONSTRAINT public admin_account admin_account_username_key ncd
+3609; 2606 16416 CONSTRAINT public admin_change_audit admin_change_audit_pkey ncd
+3640; 2606 16559 CONSTRAINT public managed_access_entitlements managed_access_entitlements_pkey ncd
+3616; 2606 16456 CONSTRAINT public managed_anniversaries managed_anniversaries_pkey ncd
+3651; 2606 16617 CONSTRAINT public managed_app_user_external_identities managed_app_user_external_identities_pkey ncd
+3654; 2606 16619 CONSTRAINT public managed_app_user_external_identities managed_app_user_external_identities_user_provider_key ncd
+3646; 2606 16598 CONSTRAINT public managed_app_user_password_credentials managed_app_user_password_credentials_email_key ncd
+3648; 2606 16596 CONSTRAINT public managed_app_user_password_credentials managed_app_user_password_credentials_pkey ncd
+3612; 2606 16433 CONSTRAINT public managed_app_users managed_app_users_pkey ncd
+3642; 2606 16576 CONSTRAINT public managed_free_resource_claims managed_free_resource_claims_pkey ncd
+3644; 2606 16578 CONSTRAINT public managed_free_resource_claims managed_free_resource_claims_product_key_resource_reference_key ncd
+3627; 2606 16511 CONSTRAINT public managed_media_uploads managed_media_uploads_pkey ncd
+3630; 2606 16513 CONSTRAINT public managed_media_uploads managed_media_uploads_storage_reference_key ncd
+3697; 2606 18358 CONSTRAINT public managed_memorial_design managed_memorial_design_pkey ncd
+3678; 2606 18252 CONSTRAINT public managed_memorial_identities managed_memorial_identities_memory_reference_key ncd
+3680; 2606 18250 CONSTRAINT public managed_memorial_identities managed_memorial_identities_pkey ncd
+3701; 2606 18378 CONSTRAINT public managed_memorial_shares managed_memorial_shares_pkey ncd
+3703; 2606 18382 CONSTRAINT public managed_memorial_shares managed_memorial_shares_share_token_key ncd
+3705; 2606 18380 CONSTRAINT public managed_memorial_shares managed_memorial_shares_token_hash_key ncd
+3659; 2606 16657 CONSTRAINT public managed_memories managed_memories_pkey ncd
+3633; 2606 16525 CONSTRAINT public managed_memory_ownership managed_memory_ownership_pkey ncd
+3664; 2606 16686 CONSTRAINT public managed_memory_reminder_preferences managed_memory_reminder_preferences_pkey ncd
+3708; 2606 18398 CONSTRAINT public managed_paid_profile_credits managed_paid_profile_credits_pkey ncd
+3688; 2606 18307 CONSTRAINT public managed_privacy_inquiries managed_privacy_inquiries_pkey ncd
+3619; 2606 16471 CONSTRAINT public managed_relationship_categories managed_relationship_categories_pkey ncd
+3667; 2606 16715 CONSTRAINT public managed_reminder_dispatch_outbox managed_reminder_dispatch_out_memory_reference_scheduled_fo_key ncd
+3669; 2606 16713 CONSTRAINT public managed_reminder_dispatch_outbox managed_reminder_dispatch_outbox_pkey ncd
+3673; 2606 16739 CONSTRAINT public managed_reminder_push_targets managed_reminder_push_targets_pkey ncd
+3623; 2606 16490 CONSTRAINT public managed_tribute_moderation managed_tribute_moderation_pkey ncd
+3693; 2606 18331 CONSTRAINT public managed_tribute_offerings managed_tribute_offerings_pkey ncd
+3657; 2606 16639 CONSTRAINT public meta_limited_login_challenges meta_limited_login_challenges_pkey ncd
+3636; 2606 16539 CONSTRAINT public meta_webhook_receipts meta_webhook_receipts_pkey ncd
+3682; 2606 18272 CONSTRAINT public public_site_settings public_site_settings_pkey ncd
+3675; 2606 16756 CONSTRAINT public reminder_worker_heartbeat reminder_worker_heartbeat_pkey ncd
+3684; 2606 18294 CONSTRAINT public schema_migrations schema_migrations_filename_key ncd
+3686; 2606 18292 CONSTRAINT public schema_migrations schema_migrations_pkey ncd
+3610; 1259 16417 INDEX public admin_change_audit_target_idx ncd
+3634; 1259 16540 INDEX public idx_meta_webhook_receipts_received_at ncd
+3637; 1259 16566 INDEX public managed_access_entitlements_external_idx ncd
+3638; 1259 16565 INDEX public managed_access_entitlements_lookup_idx ncd
+3614; 1259 16457 INDEX public managed_anniversaries_memory_idx ncd
+3652; 1259 16625 INDEX public managed_app_user_external_identities_user_idx ncd
+3649; 1259 16604 INDEX public managed_app_user_password_credentials_user_idx ncd
+3613; 1259 16434 INDEX public managed_app_users_status_idx ncd
+3625; 1259 16514 INDEX public managed_media_uploads_memory_idx ncd
+3628; 1259 16515 INDEX public managed_media_uploads_status_idx ncd
+3698; 1259 18364 INDEX public managed_memorial_design_stone_idx ncd
+3699; 1259 18365 INDEX public managed_memorial_design_symbol_idx ncd
+3676; 1259 18258 INDEX public managed_memorial_identities_memory_idx ncd
+3660; 1259 18240 INDEX public managed_memories_public_guestbook_idx ncd
+3661; 1259 16668 INDEX public managed_memories_relationship_idx ncd
+3631; 1259 16531 INDEX public managed_memory_ownership_owner_idx ncd
+3662; 1259 16692 INDEX public managed_memory_reminder_enabled_idx ncd
+3706; 1259 18404 INDEX public managed_paid_profile_credits_available_idx ncd
+3709; 1259 18405 INDEX public managed_paid_profile_credits_resource_idx ncd
+3689; 1259 18308 INDEX public managed_privacy_inquiries_status_created_idx ncd
+3617; 1259 16472 INDEX public managed_relationship_categories_name_idx ncd
+3620; 1259 16473 INDEX public managed_relationship_categories_status_order_idx ncd
+3665; 1259 16727 INDEX public managed_reminder_dispatch_memory_idx ncd
+3670; 1259 16726 INDEX public managed_reminder_dispatch_ready_idx ncd
+3671; 1259 16745 INDEX public managed_reminder_push_targets_enabled_idx ncd
+3621; 1259 16492 INDEX public managed_tribute_moderation_memorial_idx ncd
+3624; 1259 16491 INDEX public managed_tribute_moderation_status_idx ncd
+3690; 1259 18343 INDEX public managed_tribute_offerings_contributor_idx ncd
+3691; 1259 18342 INDEX public managed_tribute_offerings_memorial_idx ncd
+3694; 1259 18344 INDEX public managed_tribute_offerings_type_idx ncd
+3655; 1259 16640 INDEX public meta_limited_login_challenges_expiry_idx ncd
+3695; 1259 18345 INDEX public uq_managed_tribute_offerings_pending ncd
+3727; 2620 16420 TRIGGER public admin_change_audit admin_change_audit_no_truncate ncd
+3728; 2620 16419 TRIGGER public admin_change_audit admin_change_audit_no_update_delete ncd
+3711; 2606 16560 FK CONSTRAINT public managed_access_entitlements managed_access_entitlements_user_id_fkey ncd
+3714; 2606 16620 FK CONSTRAINT public managed_app_user_external_identities managed_app_user_external_identities_user_id_fkey ncd
+3713; 2606 16599 FK CONSTRAINT public managed_app_user_password_credentials managed_app_user_password_credentials_user_id_fkey ncd
+3712; 2606 16579 FK CONSTRAINT public managed_free_resource_claims managed_free_resource_claims_user_id_fkey ncd
+3724; 2606 18359 FK CONSTRAINT public managed_memorial_design managed_memorial_design_memory_reference_fkey ncd
+3721; 2606 18253 FK CONSTRAINT public managed_memorial_identities managed_memorial_identities_memory_reference_fkey ncd
+3725; 2606 18383 FK CONSTRAINT public managed_memorial_shares managed_memorial_shares_memory_reference_fkey ncd
+3715; 2606 16658 FK CONSTRAINT public managed_memories managed_memories_memory_reference_fkey ncd
+3716; 2606 16663 FK CONSTRAINT public managed_memories managed_memories_relationship_key_fkey ncd
+3710; 2606 16526 FK CONSTRAINT public managed_memory_ownership managed_memory_ownership_owner_user_id_fkey ncd
+3717; 2606 16687 FK CONSTRAINT public managed_memory_reminder_preferences managed_memory_reminder_preferences_memory_reference_fkey ncd
+3726; 2606 18399 FK CONSTRAINT public managed_paid_profile_credits managed_paid_profile_credits_user_id_fkey ncd
+3718; 2606 16716 FK CONSTRAINT public managed_reminder_dispatch_outbox managed_reminder_dispatch_outbox_memory_reference_fkey ncd
+3719; 2606 16721 FK CONSTRAINT public managed_reminder_dispatch_outbox managed_reminder_dispatch_outbox_owner_user_id_fkey ncd
+3720; 2606 16740 FK CONSTRAINT public managed_reminder_push_targets managed_reminder_push_targets_user_id_fkey ncd
+3722; 2606 18337 FK CONSTRAINT public managed_tribute_offerings managed_tribute_offerings_contributor_reference_fkey ncd
+3723; 2606 18332 FK CONSTRAINT public managed_tribute_offerings managed_tribute_offerings_memorial_reference_fkey ncd

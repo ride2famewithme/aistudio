@@ -1,0 +1,21 @@
+{
+  "runner_sha256": "c470d92326c32b31ce6a6bae245f90d15e9f405b90f0da27f6e0cf952b079b14",
+  "actual_mac_test_file_sha256": "60b554569553dae33195171665efb6a9a67b33f5772ec01061527377be426954",
+  "actual_mac_source_reconstructed_byte_for_byte": true,
+  "exact_source_matcher_check": "passed",
+  "original_native_assertion_bytes_preserved": true,
+  "native_assertion_scoped_to_non_web_distributions": true,
+  "ro_en_release_visibility_checks_retained": true,
+  "release_guards_retained": true,
+  "unexpected_or_duplicate_assertions_stop_safely": true,
+  "controlled_fixture_checks": [
+    "read-only preflight passed using exact formatted source",
+    "analysis failure prevented ZIP export",
+    "dependency lock drift prevented evidence reuse/export",
+    "complete synthetic finalization produced five member-hash-verified archives",
+    "prior source and logs unchanged"
+  ],
+  "actual_flutter_rerun": "pending on owner Mac",
+  "actual_web_build": "pending",
+  "production_deployed": false
+}

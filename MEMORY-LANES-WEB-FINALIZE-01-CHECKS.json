@@ -1,0 +1,25 @@
+{
+  "runner_sha256": "fc5c302a266a65305f0d0d7cee45800cc31ae57abf900e4cb6e8de2c6307a7b7",
+  "python_3_9_syntax": "passed",
+  "controlled_fixture_checks": [
+    "JSON list events ignored safely",
+    "471 visible passes separated from three skipped release tests and 73 loading events",
+    "Native token assertion retained for native distributions",
+    "RO and EN Facebook release guards retained",
+    "Focused release tests receive reviewed public defines",
+    "Dependency lock drift stops evidence reuse",
+    "Failed analysis emits no upload ZIP",
+    "Protected previous source/logs unchanged",
+    "Hostinger archive member hashes verified",
+    "Handover ZIP/TAR and portable-kit ZIP/TAR member hashes verified in synthetic finalization fixture"
+  ],
+  "actual_backend_execution": "102 passed from supplied Mac evidence; not rerun",
+  "actual_frontend_execution": "471 passed; three release configuration tests pending rerun",
+  "actual_frontend_analysis": "pending",
+  "actual_web_compilation": "pending",
+  "production_deployed": false,
+  "live_database_snapshot_included": false,
+  "native_binary_produced": false,
+  "facebook_browser_login_verified": false,
+  "portable_kit": "Reusable Python source engine plus host integration references; not a turnkey generic Flutter plugin"
+}

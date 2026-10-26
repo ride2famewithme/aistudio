@@ -1,0 +1,20 @@
+{
+  "runner_sha256": "851213a571c49b88ddb54ce36692c459835a4e08a073e987d44cc8542d4514af",
+  "python_3_9_syntax": "passed",
+  "permitted_app_change": "Remove only import 'package:file_selector/file_selector.dart'; from lib/app_user_private_media_gallery.dart",
+  "all_other_lib_and_test_bytes": "guarded before and after build",
+  "backend_tests_reused": 102,
+  "frontend_tests_reused": 474,
+  "facebook_release_tests_included_in_frontend_count": 3,
+  "dependency_lock": "must match completed test run",
+  "controlled_checks": [
+    "analysis failure prevented export",
+    "dependency drift prevented evidence reuse/export",
+    "synthetic complete finalization produced five member-hash-verified archives",
+    "previous source/test/log files unchanged"
+  ],
+  "actual_analysis_after_import_removal": "pending on owner Mac",
+  "actual_web_build": "pending",
+  "production_deployed": false,
+  "facebook_browser_login_verified": false
+}

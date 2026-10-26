@@ -1,0 +1,28 @@
+{
+  "runner_sha256": "da2297f405e1e91a3edb42f69fcef3e4f87c68dfb0ec2ddb147eeb32588f15d2",
+  "change": "build location only; no app or SDK source edits",
+  "temporary_parent": "/Volumes/2TB_2026TOS/ML_BUILD_TEMP/",
+  "workspace_creation": "unique timestamp+UUID; exist_ok=False; never delete/overwrite existing workspace",
+  "sdk": "byte-verified copy of supplied Flutter 3.22.3; immutable source/compiler verified after execution; generated caches excluded from after-run SDK comparison",
+  "source": "full filtered build-input SHA256 compared before/after copying and compilation; approved assets pinned to original archive",
+  "configuration": "reviewed API/FB values unchanged; explicit web distribution and /memorylane/app/ retained",
+  "accepted_qa_reused": {
+    "backend": 102,
+    "flutter": 474,
+    "analysis": "zero issues"
+  },
+  "controlled_checks": [
+    "read-only preflight passed",
+    "short ASCII workspace/source/SDK paths used",
+    "original source/SDK/analysis unchanged",
+    "no tests or analysis rerun",
+    "compiler failure blocks archive export",
+    "synthetic compilation success creates five member-hash-verified archives",
+    "common private-key/provider-secret patterns and private config filenames rejected"
+  ],
+  "actual_mac_compilation": "pending",
+  "production_deployed": false,
+  "facebook_browser_verified": false,
+  "provider_payment_verified": false,
+  "live_database_snapshot_included": false
+}
